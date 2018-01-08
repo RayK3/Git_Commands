@@ -1,0 +1,18 @@
+To do the equivalent of saving on git:
+
+    -Save the file in its current location
+    -navigate to the file in its folder in the git terminal
+    -git diff to display the changes
+    -git add --all to stage the changes
+    -git commit -m 'message'
+        The -m signifies that a message will follow
+    -git push origin master
+        'Pushes' the changes to the master branch on your computer
+    -git pull origin master
+        'Pulls' the changes from the master branch to you computer
+    -git log 
+        Shows the history of commits along with their distinct commit name
+    -git checkout cf3080
+        Displays the file contents at the time of that commit
+    -get checkout master
+        Displays the most recent commits made to the master branch
