@@ -3,7 +3,11 @@ To do the equivalent of saving on git:
     -Save the file in its current location
     -navigate to the file in its folder in the git terminal
     -git diff to display the changes
-    -git add --all to stage the changes
+    -git add --all to stage all the changes made
+    -git add main.txt
+         Stages the file main.txt
+    -git reset main.txt
+         Unstages the file main.txt
     -git commit -m 'message'
         The -m signifies that a message will follow
     -git push origin master
@@ -14,5 +18,12 @@ To do the equivalent of saving on git:
         Shows the history of commits along with their distinct commit name
     -git checkout cf3080
         Displays the file contents at the time of that commit
-    -get checkout master
+    -git checkout master
         Displays the most recent commits made to the master branch
+    -git checkout -- 'filename'
+        Changes the file to the way it was before the last commit
+    -git diff --staged
+        Displays the differences in all of the currently staged files
+        
+        
+    
