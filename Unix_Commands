@@ -1,0 +1,10 @@
+Reviewing the Unix commands that you know:
+  cd         Change directory
+  cd ..      Change to parent directory
+  ls         Lists the files in the current directory
+  pwd        Posts working directory
+  cp         Copies a file
+  rm         Deletes a file
+  rmdir      Deletes a directory
+  mkdir      Makes a directory
+  cat        Shows a file
